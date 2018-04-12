@@ -5,6 +5,9 @@ gem 'rails', '3.2.22'
 gem 'bootstrap-sass', '2.1'
 
 gem 'bcrypt-ruby', '3.0.1'
+
+
+gem 'jquery-rails', "~> 2.3.0"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -40,7 +43,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
 #gem 'mysql2', "~> 0.3.0"
 
 # To use ActiveModel has_secure_password
